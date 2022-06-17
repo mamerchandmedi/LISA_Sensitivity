@@ -21,7 +21,7 @@ def Lorentzian(f, f_ring, sigma):
 def get_freq(M, eta, name):
     """ """
     if (name == "merg"):
-       idx = 0
+        idx = 0
     elif (name == "ring"):
         idx = 1
     elif (name == "sigma"):
